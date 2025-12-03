@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efeded;
+    text-align: center;
+}
+
+/* common class */
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.Section-Title {
+    font-size: 34px;
+    color: #1F1F1F;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common class end */
+
+
+#header-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 84px;
+    padding: 3px;
+    align-items: center;
+}
+
+#header-img-1 img {
+    width: 148px;
+    height: 60px;
+
+}
+
+#header-img-2 img {
+    width: 48px;
+    height: 48px;
+
+}
+
+#hero-container {
+    background-color: #FEEAE9;
+    display: flex;
+
+    padding: 48px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#hero-content {
+    text-align: left;
+}
+
+#hero-content h1 {
+    font-size: 54px;
+    font-weight: bold;
+    color: #1F1F1F;
+    margin-bottom: 40px;
+
+
+}
+
+#hero-content p {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 40px;
+    width: 456px;
+
+}
+
+#hero-content h3 {
+    font-size: 41px;
+    color: #FF136F;
+    margin-bottom: 15px;
+
+}
+
+#hero-content button {
+    width: 168px;
+    height: 47px;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    background-color: #FF589B;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#hero-image img {
+    width: 292px;
+
+}
+
+#category-cards-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+#category-container {
+    margin-bottom: 30px;
+}
+
+
+
+.category-card {
+    display: flex;
+    width: 30%;
+    height: 100px;
+    border-radius: 7px;
+    padding: 4px;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.category-card img {
+    width: 64px;
+}
+
+#category-card-1 {
+    background-color: #FF9C35;
+}
+
+#category-card-2 {
+    background-color: #FF136F;
+}
+
+#category-card-3 {
+    background-color: #3F07F8;
+}
+
+#category-card-3 img {
+    width: 100px;
+}
+
+#shoe-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#shoe-card {
+    border: 1px solid #929292;
+    border-radius: 20px;
+    padding: 24px;
+    width: 360px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+#shoe-card h3 {
+    font-size: 24px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+
+}
+
+#shoe-card p {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+
+#shoe-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 6px;
+    width: 165px;
+    height: 51px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px rgb(15, 14, 11);
+}
+
+#bag-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#bag-card {
+    border: 1px solid #929292;
+    border-radius: 20px;
+    padding: 24px;
+    width: 360px;
+    box-shadow: 0 0 4px 1px black;
+}
+
+#bag-card h3 {
+    font-size: 24px;
+    color: #1F1F1F;
+    margin-bottom: 20px;
+
+}
+
+#bag-card p {
+    font-size: 16px;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+}
+
+#bag-card h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+#bag-card img {
+    width: 219px;
+}
+
+
+#newsletter-container {
+    background-color: #FFF2F1;
+    padding: 146px;
+    border-radius: 10px;
+    margin-bottom: 50PX;
+    text-align: center;
+}
+
+#newsletter-containt h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#newsletter-containt p {
+    font-size: 16px;
+    color: #707070;
+
+}
+
+/* #email {
+    display: flex;
+}
+
+#email input {
+    width: 683px;
+    height: 57px;
+    font-size: 24px;
+    padding-left: 60px;
+}
+
+#email button {
+    background-color: #FF589B;
+    color: white;
+    width: 157px;
+    height: 57px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+
+} */
+
+#newsletter-containt form{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+#newsletter-containt form input[type=text]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+}
+
+
+#newsletter-containt button{
+    background-color: #FF589B;
+    color: white;
+    width: 157px;
+    height: 57px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+
+
+button:hover {
+    background-color: #471c2e;
+    transition: .5s;
+    box-shadow: 0px 1px 1px black;
+}
+
+#btn:hover {
+    background-color: #471c2e;
+    transition: .5s;
+    box-shadow: 0px 4px 4px black;
+    cursor: pointer;
+}
+
+#shoe-card:hover {
+    background-color: rgb(192, 204, 230);
+    box-shadow: 0px 4px 4px rgb(54, 53, 53);
+    transition: .5s;
+}
+
+
+#bag-card:hover {
+    background-color: rgb(192, 204, 230);
+    box-shadow: 0px 4px 4px rgb(54, 53, 53);
+    transition: .5s;
+}
+
+.category-card:hover {
+
+    box-shadow: 0px 4px 4px rgb(54, 53, 53);
+    transition: .5s;
+
+}
+
+
+
+
+
+
+
+/* responsive style */
+
+@media screen and (max-width:1500px){
+
+#shoe-card{
+    width: 32%;
+    
+}
+
+
+#shoe-card img{
+    width: 77%;
+}
+
+#bag-card{
+    width: 32%;
+    
+}
+
+
+#bag-card img{
+    width: 77%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Laptop Device (max-width:1200px) */
+
+@media screen and (max-width:1200px){
+
+
+    #hero-content h1 {
+        font-size: 36px;
+    }
+
+    #hero-content p {
+        font-size: 14px;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    #hero-content h3 {
+        font-size: 38px;
+    }
+
+    #hero-content button {
+        width: 150px;
+        height: 43px;
+    }
+
+    #shoe-card img {
+        width: 81%px;
+    }
+
+
+
+    #shoe-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    #shoe-card {
+        width: 61%;
+    }
+
+
+    #shoe-container h2 {
+        text-align: center;
+
+    }
+
+    #bag-card img {
+        width: 77%px;
+    }
+
+
+
+    #bag-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    #bag-card {
+        width: 61%;
+    }
+
+
+    #bag-container h2 {
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* Tablet Device (max-width:992px) */
+
+
+@media screen and (max-width:992px) {
+
+    #hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+
+    #hero-content {
+        text-align: center;
+
+    }
+
+
+    #hero-content p {
+        width: auto;
+        font-size: 15px;
+
+
+
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .Section-Title {
+        text-align: center;
+    }
+
+    #shoe-card {
+        width: 76%;
+    }
+
+    #shoe-card img {
+        width: 400px;
+    }
+
+    #bag-card {
+        width: 76%;
+    }
+
+    #bag-card img {
+        width: 250px;
+    }
+
+    #newsletter-container {
+    background-color: #FFF2F1;
+    padding: 100px;}
+
+    #newsletter-containt form input[type=text]{
+        font-size: 18px;
+        padding-left:9%;
+    }
+}
+
+
+
+
+/* Mobile Device (max-width:640px) */
+
+
+@media screen and (max-width:640px) {
+
+
+    .container {
+        width: auto;
+    }
+
+    #hero-image img {
+        width: 228px;
+    }
+
+    #hero-content h1 {
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+
+    #hero-content p {
+        font-size: 11px;
+        margin-bottom: 13px;
+    }
+
+
+    #hero-content h3 {
+        font-size: 30px;
+    }
+
+    #hero-content button {
+        width: 115px;
+        height: 38px;
+        align-items: center;
+
+
+    }
+
+    #category-cards-box {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+
+    }
+
+    .category-card {
+        width: 71%;
+    }
+
+    #shoe-card img {
+        width: 204px;
+    }
+
+    #shoe-card {
+        width: 85%;
+    }
+
+
+    #bag-card img {
+        width: 185px;
+    }
+
+    #bag-card {
+        width: 85%;
+    }
+
+    #newsletter-containt form{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        
+    }
+
+    #newsletter-containt button{
+        border-radius: 7px;
+    }
+
+    #newsletter-container {
+        padding: 10%;
+    }
+    
+
+
+}
